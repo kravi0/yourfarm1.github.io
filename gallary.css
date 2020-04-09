@@ -1,0 +1,48 @@
+body{
+background-color: #f1f2f6;
+}
+
+
+
+.zoom{
+   transition: transform .2s;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover{
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5); 
+  z-index: 1;
+}
+.welcome{
+
+	font-family: Brush Script MT;
+}
+.mid-row1{
+	background-color: #F79F1F;
+	font-family: Forte;
+	
+	align-items: center;
+	margin-left: 70px;
+	margin-right: 70px;
+	margin-top: 40px;
+}
+.mid-row2{
+	background-color: #A3CB38;
+	font-family: Forte;
+	align-items: center;
+	margin-left: 70px;
+	margin-right: 70px;
+	margin-top: 20px;
+}
+.mid-row{
+	background-color: #1289A7;
+	font-family: Forte;
+	align-items: center;
+	margin-left: 70px;
+	margin-right: 70px;
+	margin-top: 20px;
+}
